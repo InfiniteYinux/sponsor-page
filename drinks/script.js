@@ -16,10 +16,10 @@ var PayPalLink  =   "https://www.paypal.me/yyy711";
 $('#paypal-donate>a').href = PayPalLink;
 $('#github-box>a').href = GithubLink;
 var qrcodes = {
-    'btc_donate'	:	'../simple/images/BTCQR.png',	// 二维码路径
+    'btc_donate'	:	'https://cdn.jsdelivr.net/gh/InfiniteYinux/cloud@master/donate/qq.png',	// 二维码路径
     'alipay_donate'	:	'https://cdn.jsdelivr.net/gh/InfiniteYinux/cloud@master/donate/alipay.png',	// 支付宝二维码
     'alipay_donate_link'   :   'https://qr.alipay.com/tsx04576pw7fyxswgeb9qc0',   // 支付宝二维码上的链接，必须换成自己的连接！！！手机点击会自动跳转到支付宝。
-    'wechat_donate'	:	'../simple/images/WeChanSQ.png'
+    'wechat_donate'	:	'https://cdn.jsdelivr.net/gh/InfiniteYinux/cloud@master/donate/wechat.png'
 };
 
 var drinks_an = new Object();
